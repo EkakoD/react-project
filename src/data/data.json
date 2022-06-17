@@ -1,0 +1,68 @@
+[
+    {
+        "id": "0",
+        "firstName": "Eka",
+        "lastname": "Daghelashvili",
+        "email": "ekadagelashvili@gmail.com",
+        "address": "Tbilisi, Sikharulidze str",
+        "price": "100",
+        "password": "123123",
+        "isClient": false,
+        "bookedBarberIds": [],
+        "review": [
+            {
+                "score": 5,
+                "comment": "Awesome!"
+            },
+            {
+                "score": 5,
+                "comment": "Awesome!"
+            }
+        ]
+    },
+    {
+        "id": "1",
+        "firstName": "Eka1",
+        "lastname": "Daghelashvili1",
+        "email": "ekadagelashvili@gmail.com1",
+        "address": "Tbilisi, Sikharulidze str",
+        "price": "10",
+        "password": "1231231",
+        "isClient": false,
+        "bookedBarberIds": [],
+        "review": [
+            {
+                "score": 10,
+                "comment": "Awesome!1"
+            },
+            {
+                "score": 8,
+                "comment": "Awesome!2"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "firstName": "",
+        "lastname": "",
+        "email": "ekuna@gmail.com",
+        "address": "",
+        "price": "",
+        "password": "123",
+        "isClient": true,
+        "bookedBarberIds": [],
+        "review": []
+    },
+    {
+        "id": "3",
+        "firstName": "",
+        "lastname": "",
+        "email": "eka@gmail.com",
+        "address": "",
+        "price": "",
+        "password": "12345",
+        "isClient": true,
+        "bookedBarberIds": [],
+        "review": []
+    }
+]

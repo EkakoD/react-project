@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import { Routes, Route, Navigate } from 'react-router-dom'
 import './App.css';
+import Barbers from './pages/barber/Barbers'
+import Login from './pages/Login'
 
+// import Barber from './pages/barber/Barber'
+// import BarberDetails from './pages/barber/BarberDetails'
 function App() {
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex flex-col">
+      <Routes>
+        <Route path='*' element={<Navigate to="/login" />} />
+        <Route path='/login' exact
+          element={<Login />} />
+        {/* <Route path='/register' exact 
+        element={<Register />} />  */}
+        {/* <Route path='/barbers/:barberId' exact element={<BarberDetails />} /> */}
+        <Route path='/barbers' exact element={<Barbers />} />
+      </Routes>
     </div>
   );
 }
