@@ -2,7 +2,8 @@ import UserData from '../data/data.json'
 
 
 export const getBarberList = () => {
-    const barberList = UserData.map(x => x);
+    const barberList = UserData.filter(x => x.isClient === false);
+
     return barberList;
 }
 
